@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .card {
+    background-color: red;
+    list-style: none;
+    padding: 40px;
+    text-transform: capitalize;
+    width: 200px;
+    border-radius: 5%;
+    margin-left: 10px;
+  }
+  
+  .card:hover {
+    transition: all 0.2 ease;
+    transform: scale(0.95);
+  }
+  
+  #pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 15px;
+  }
+  
+  
